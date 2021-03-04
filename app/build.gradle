@@ -31,7 +31,7 @@ android {
 dependencies {
 
     /*萤石SDK核心模块，必须依赖*/
-    implementation 'com.ezviz.sdk:ezviz-sdk:' + EZVIZ_SDK_VERSION
+    implementation 'com.ezviz.sdk:ezviz-sdk:4.14.0'
 
     /*视频通话模块，按需使用*/
     implementation 'com.ezviz.sdk:videotalk:1.0.0'
